@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>INCEPTION WAVE</title>
+	<!-- main css file -->
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	<!-- font awesome cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+
+	<!-- home section  -->
+	<section class="container-fluid banner" id="home">
+		<div class="row">
+			<div class="nav2" id="nav2">
+				<i class="fa fa-close" onclick="navclose();"></i>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">IMAGES</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div> 
+
+
+			<div class="col-md-12 navigation-bar navbar" id="navigation-bar">
+				<div class="logo navbar-brand">
+					<a href="index.html">
+						INCEPTION WAVE<span>.</span>
+					</a>
+				</div>
+				<div class="menu-text"  onclick="navopen();">
+					<p class="menu-heading">MENU</p>
+					<i class="fa fa-bars"></i>
+
+				</div>
+				
+             </div>
+
+
+		<div class="text">
+			<h4> DESIGN • DEVELOPMENT • BRANDING </h4>
+			<h1> INCEPTION WAVE</h1>
+			<h3>Ameliorating Work Culture</h3>
+		</div>
+
+	   </div>
+
+
+		</div>
+		<div class="col-md-12 d-flex info-banner">
+				    <div class="col-md-10 offset-md-1 info-heading-text">
+				</div>
+				<div class="col-md-1 social-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-dribbble"></i></a>
+					<a href="#"><i class="fa fa-whatsapp"></i></a>
+				</div>
+			</div>
+			<a href="#" class="col-md-2 offset-md-9 angle">
+				<i class="fa fa-angle-down"></i>
+				<h2>SCROLL DOWN</h2>
+			</a>
+		</div>
+	</section>
+
+	<!-- about section -->
+
+	<section class="container about" id="about">
+		<div class="row">
+			<div class="col-md-12 main-about offset-md-1 d-flex">
+				<div class="col-md-6 about-us-info">
+					<h1 class="about-us-info-heading">
+						ABOUT US
+					</h1>
+					<p class="about-us-info-subheading">
+                        Inception Wave is an Indian software company, currently working on developing a social media platform to bring together like minded individuals and help them improve their productivity by collaborating and achieving common goals and milestones. Inception Wave was founded in December '18 and got incorporated in February '19. Currently, 10 exceptionally motivated individuals are working day and night to bring the company's vision to reality.
+						
+ 					</p>
+				</div>
+				<div class="col-md-6 about-us-intro">
+					<h2 class="about-us-intro-heading text-center">INTRO</h2>
+					<div class="image-intro-thumbnail offset-md-3 d-flex" onclick="lightboxappear();">
+						<img src="images/intro.jpg" class="image-responsive image-intro-about" />
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- portfolio section -->
+	<section class="container portfolio" id="portfolio">
+		<div class="row">
+			<div class="col-md-12 portfolio-section">
+				<h1 class="text-center portfolio-heading">IMAGES</h1>
+				<p class="text-center portfolio-subheading">
+					HERE ARE OUR SOME WORKS ..
+				</p>
+			</div>
+			<div class="col-md-11 offset-md-1 portfolio-videos d-flex">
+				<iframe width="458" height="280" src="https://image.shutterstock.com/image-photo/web-development-coding-programming-internet-260nw-1141706672.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="458" height="280" src="https://image.shutterstock.com/image-illustration/software-web-development-programming-concept-260nw-1291402780.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="458" height="280" src="https://image.shutterstock.com/image-vector/mobile-app-development-design-sketch-260nw-1139124146.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="458" height="282" src="https://en.pimg.jp/055/074/333/1/55074333.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="458" height="280" src="https://image.shutterstock.com/image-vector/software-development-coding-business-analysis-260nw-1465636874.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+				<iframe width="462" height="280" src="https://image.shutterstock.com/image-vector/software-development-coding-process-concept-260nw-1396210841.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+
+	<!-- contact us section -->
+	<section class="container-fluid contact" id="contact">
+		<div class="row">
+			<div class="col-md-12 contact-heading">
+				<h1 class="contact-heading-title text-center">CONTACT US</h1>
+				<p class="contact-heading-subtitle text-center">
+					For any query, suggestion or feedback, feel free to contact us using below details.
+				</p>
+			</div>
+			<div class="col-md-6 contact-form offset-md-3">
+				<form id="form-contact">
+					<div class="form-group text-center">
+						<input type="text" name="name" placeholder="Enter Your Name" required="required" />
+						<input type="email" name="email" placeholder="Enter Your Email" required="required" />
+					</div>
+					<div class="form-group text-center subject">
+						<input type="text" name="subject" placeholder="Enter The Subject" required="required" />
+					</div>
+					<div class="form-group text-center">
+						<textarea name="comment" placeholder="Enter The comment" required="required" minlength="20"></textarea>
+					</div>
+					<div class="form-group text-center">
+						<input type="submit" name="submit-btn" value="SEND" form="form-contact" class="btn btn-primary" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer section here -->
+	<section class="container-fluid footer bg-primary" id="footer">
+		<a href="index.html" class="logo-footer text-center">INCEPTION WAVE.</a><br />
+		<a href="#home" class="btn btn-back text-center">BACK TO TOP</a>
+		<p class="footer-credits text-center">
+			Free to use . Proudly made by Rajasekhar Badri
+		</p>
+	</section>
+	<!-- script -->
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
